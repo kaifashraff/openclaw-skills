@@ -86,3 +86,20 @@ class MonitoringDashboard:
 **Alert Rules:**
 - uptime < 95% → Critical
 - error_rate > 20% → Critical
+
+## Alerting Thresholds
+| Level | Uptime | Error Rate | Memory | Response (p90) |
+|-------|--------|------------|--------|---------------|
+| Critical | <95% | >20% | >95% | >10s |
+| High | <98% | >10% | >90% | >5s |
+| Medium | <99% | >5% | >85% | - |
+| Low | <99.5% | - | - | - |
+
+## Security Threat Model
+- Data poisoning: Malicious data affecting learning
+- Prompt injection: Malicious prompts bypassing safety
+- Model theft: Unauthorized extraction of model knowledge
+- Resource exhaustion: Denial of service
+- Configuration manipulation: Unauthorized changes
+- Privilege escalation: Unauthorized access
+- Data exfiltration: Unauthorized data access
