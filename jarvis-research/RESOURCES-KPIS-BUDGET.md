@@ -103,3 +103,10 @@ class MonitoringDashboard:
 - Configuration manipulation: Unauthorized changes
 - Privilege escalation: Unauthorized access
 - Data exfiltration: Unauthorized data access
+
+## Security Controls
+- **Encryption:** AES-256 at rest, TLS 1.3 in transit
+- **Key rotation:** 90 days
+- **Access:** OAuth 2.0 + MFA, RBAC
+- **Isolation:** Multi-tenant namespaces, sandbox per skill
+- **Backup:** Daily incremental, weekly full, 30-day retention
