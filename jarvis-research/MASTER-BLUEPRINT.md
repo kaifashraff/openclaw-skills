@@ -166,3 +166,23 @@ const results = await table.search("Kaif's pricing strategy for Diwali 2026").li
 - Complete dataset verification (not cherry-picked)
 - Statistical falsification testing
 - Cross-source confirmation required
+
+## AGI Execution Flow
+```
+Kaif sends message ───► GATEWAY ───► PILLAR 4 (Personality)
+                                        │
+                                        ▼
+                                   PILLAR 1 (Memory)
+                                        │
+                                        ▼
+                                   PILLAR 2 (Reasoning)
+                                        │
+                                        ▼
+                                   PILLAR 5 (Knowledge verification)
+                                        │
+                                        ▼
+                                   PILLAR 6 (Tools & Execution)
+                                        │
+                                        ▼
+                                   Response to Kaif
+```
