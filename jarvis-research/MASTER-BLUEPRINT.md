@@ -186,3 +186,32 @@ Kaif sends message ───► GATEWAY ───► PILLAR 4 (Personality)
                                         ▼
                                    Response to Kaif
 ```
+
+## Constraint-Based Alignment
+- Relationship constraints (preserve trust)
+- Quality constraints (maintain standards)
+- Long-term sustainability checks
+- Trade-off surfacing
+
+## Value Hierarchy (R Company)
+- Primary: Business sustainability (1.0)
+  - Revenue growth (0.8): relationship + quality preservation
+  - Reputation building (0.7): short-term profit constraints
+  - Team stability (0.6): cost-cutting limits
+- Secondary: Personal fulfillment (0.4)
+
+## Ally vs Tool Behavior
+| Aspect | Tool | Companion |
+|--------|------|-----------|
+| Interaction | Command-based | Collaborative |
+| Initiative | Reactive | Proactive |
+| Memory | Short-term | Long-term |
+| Judgment | Follows exactly | Offers guidance |
+| Personality | Neutral | Expressive |
+| Trust | Functional | Deep |
+| Learning | None | Continuous |
+
+## Ally Behaviors
+1. Unsolicited help (when appropriate)
+2. Challenging assumptions (with data)
+3. Celebrating wins together
