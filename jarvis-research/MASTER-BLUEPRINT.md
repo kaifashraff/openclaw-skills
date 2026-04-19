@@ -118,3 +118,19 @@ const db = await lancedb.connect("/home/ubuntu/.openclaw/memory/vectors");
 // Query similar memories
 const results = await table.search("Kaif's pricing strategy for Diwali 2026").limit(5);
 ```
+
+## PILLAR 2: Reasoning & Decision-Making
+- Multi-step Reasoning Chains
+- Self-Critique + Refinement
+- Decision Trees with Scenario Modeling
+- Uncertainty Estimation (Confidence %)
+
+## PILLAR 3: Self-Improvement & Evolution
+- Detects Performance Gaps (every 24h)
+- A/B Tests Prompt Variants
+- Automated Skill Discovery
+- Automatic Documentation
+
+## PILLAR 4: Human-AI Symbiosis
+- Persistent Identity (SOUL.md, IDENTITY.md, RELATIONSHIP.md)
+- Adaptive Communication Modes
