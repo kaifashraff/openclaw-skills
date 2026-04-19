@@ -146,3 +146,23 @@ const results = await table.search("Kaif's pricing strategy for Diwali 2026").li
 - Contradiction Detection (flag conflicts)
 - Knowledge Graph (entities + relationships)
 - Confidence Scoring (0-100%)
+
+## PILLAR 6: Tools & Execution
+- Tool-Use Architecture (web_search, exec, browser, memory, subagents)
+- Automation Pipelines (cron jobs every 10min/6hrs/daily)
+- API Integration (Kitco gold/silver, market data)
+- Self-Healing (gateway-watchdog.sh auto-restart)
+- Safety Boundaries (READ/WRITE/EXEC/COMM/AGENT permissions)
+
+## Safety Permission Levels
+- READ: Read files, search memory, fetch web
+- WRITE: Create/edit files, update memory
+- EXEC: Run safe commands (no rm, no sudo)
+- COMM: Send messages (bulk requires approval)
+- AGENT: Spawn subagents (5 max, 10800s timeout)
+
+## Truth-First Protocol
+- Quran-first for religious claims
+- Complete dataset verification (not cherry-picked)
+- Statistical falsification testing
+- Cross-source confirmation required
