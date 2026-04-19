@@ -134,3 +134,15 @@ const results = await table.search("Kaif's pricing strategy for Diwali 2026").li
 ## PILLAR 4: Human-AI Symbiosis
 - Persistent Identity (SOUL.md, IDENTITY.md, RELATIONSHIP.md)
 - Adaptive Communication Modes
+
+## PILLAR 4: Human-AI Symbiosis (Personality)
+- Adaptive Communication Modes (Fast/Strategic/Deep/Quiet)
+- Relationship Modeling (preferences, patterns, goals)
+- Trust Building (honesty, challenge, surprises)
+- Friend Mode > Servant Mode
+
+## PILLAR 5: Knowledge & Epistemology
+- Cross-Source Verification (multiple APIs confirm facts)
+- Contradiction Detection (flag conflicts)
+- Knowledge Graph (entities + relationships)
+- Confidence Scoring (0-100%)
