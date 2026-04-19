@@ -82,3 +82,39 @@ Transform OpenClaw from a session-bound chat agent into an AGI-like system with:
 
 ---
 *This is the complete AGI architecture blueprint.*
+
+## PILLAR 1: Memory & Continuity Architecture
+
+### Current State
+OpenClaw uses flat-file memory (memory/YYYY-MM-DD.md and MEMORY.md) — basic persistence, doesn't scale for AGI.
+
+### Target State: Tripartite Memory System
+
+1. **Episodic Memory** — Raw session data, timestamped events, decisions made
+   - Storage: Flat files + session logs (existing)
+   - Enhancement: Add metadata indexing
+
+2. **Semantic Memory** — Facts, entities, relationships, business rules
+   - Storage: LanceDB (vector search) + SQLite Knowledge Graph
+   - Why: Vector search finds similar items; Knowledge Graph finds related items
+
+3. **Procedural Memory** — How to do things, skills, workflows
+   - Storage: OpenClaw Skill system (SKILL.md files)
+   - Enhancement: Skill auto-discovery and optimization
+
+### Memory Distillation Pipeline
+```
+Every session → automatically distilled → MEMORY.md updated
+```
+
+### Implementation
+```javascript
+// Install LanceDB
+npm install lancedb
+
+// Initialize vector store
+const db = await lancedb.connect("/home/ubuntu/.openclaw/memory/vectors");
+
+// Query similar memories
+const results = await table.search("Kaif's pricing strategy for Diwali 2026").limit(5);
+```
