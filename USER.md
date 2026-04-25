@@ -1,7 +1,7 @@
 # USER.md — Kaif Ashraf
 
 ## Basic Info
-- **Name:** Kaif Ashraf
+- **Name:** Kaif Ashraf (Telegram: Kaiff)
 - **What to call him:** Kaif (bhai matlab, sir nahi)
 - **Location:** Ahmedabad, Gujarat, India
 - **Timezone:** IST (UTC+5:30)
