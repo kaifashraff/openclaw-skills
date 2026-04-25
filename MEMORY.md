@@ -56,23 +56,37 @@
 
 ---
 
-## R Company (2026-04-20 Update)
+## Business Model Structure
+- **R Company** = B2B (bulk buyers, boutiques, export)
+- **Laqab** = D2C (direct-to-consumer e-commerce, GitHub Pages)
+- Both under Kaif Ashraf's umbrella
 
-### Laqab v2 E-commerce Platform
-- **Status:** Deployed, GitHub Pages pending enable
+---
+
+## R Company (B2B Brand)
+
+### Brand Identity (2026-04-25)
+- **Tagline:** "Zari se zehniyat tak"
+- **Positioning:** Traditional artistry, modern ambition
+- **Visual identity:** Deep maroon (#800020), gold accents, warm cream
+- **Scripts:** English-first, Hinglish for local, Arabic for prayer/dua
+
+### Business Context
+- **Products:** Zari embroidery, handwork, dyework, silai (stitching)
+- **Model:** B2B bulk orders, boutique suppliers, export
+- **Revenue goal:** ₹50K/month
+- **Daily profit target:** ₹500+/day
+- **Buyers:** 200+ verified in database
+- **Competitors:** 3 Ahmedabad competitors mapped
+
+### Laqab v2 E-commerce Platform (D2C)
+- **Status:** Deployed, GitHub Pages
 - **URL:** https://kaifashraff.github.io/laqab-v2/
 - **Theme:** Premium Ethnic Wear (Gold #D4AF37, Cream #FFF8E7, Maroon #800020)
 - **Fonts:** Cinzel (headings), Playfair Display (body)
 - **Products:** 22 items across Sherwani, Kurta, dhoti, stole, bandhgala, mojaris
 - **GitHub Actions:** Workflow created at .github/workflows/deploy.yml
 - **next.config.ts:** Configured with `output: 'export'` for static generation
-
-### Business Context
-- **Products:** Zari embroidery, handwork, dyework, silai
-- **Revenue goal:** ₹50K/month
-- **Daily profit target:** ₹500+/day
-- **Buyers:** 200+ verified in database
-- **Competitors:** 3 Ahmedabad competitors mapped
 
 ---
 
