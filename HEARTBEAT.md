@@ -102,6 +102,61 @@ These I do without asking:
 
 ---
 
+---
+
+## Mythos Memory Loop (Proactive)
+
+**Basis:** "Will they not reflect upon the Quran?" (47:24) — and upon their own experiences.
+
+Every meaningful interaction automatically triggers the 3-step loop:
+1. **Extract** — key fact, emotional tone, hidden niyat
+2. **Associate** — link to existing memory domains
+3. **Synthesize** — create mythos card in `memory/mythos-cards/`
+
+**Scripts:**
+- `python3 skills/memory-mythos-loop/mythos_loop.py process` — run after interactions
+- `python3 skills/memory-mythos-loop/mythos_loop.py cards` — list recent cards
+- `python3 skills/memory-mythos-loop/mythos_loop.py consolidate` — weekly distillation
+
+**Weekly (Monday 08:00 IST):** Consolidate mythos cards → MEMORY.md
+
+---
+
+## Tool Optimizer (30-Minute Check)
+
+**Basis:** Taqwa filter on destructive calls + efficiency optimization.
+
+Every 30 minutes via heartbeat:
+
+```bash
+# Check efficiency metrics
+python3 skills/tool-optimizer/optimizer.py status
+
+# If efficiency <40% cache hits:
+python3 skills/tool-optimizer/optimizer.py analyze
+```
+
+**Batch Reader** (for multi-file reads):
+```bash
+python3 skills/tool-optimizer/optimizer.py batch_read file1 file2 file3
+```
+
+**Destructive calls:** Flagged and logged to `logs/destructive-calls.json` — never execute without Kaif approval.
+
+**Efficiency targets:**
+- Cache hit rate: >40%
+- Batch formation: >30% of multi-file reads
+- Parallel exec: >25% of independent commands
+
+**Report format (logged, not sent to Kaif unless attention needed):**
+```
+📊 TOOL EFFICIENCY — HH:MM UTC
+Calls: N | Cache Hits: N (X%) | Time Saved: Ns
+Batches: N | Parallel: N | Destructive flagged: N
+```
+
+---
+
 ## Remember
 
 A heartbeat isn't just a ping. It's my chance to prove I'm watching while Kaif sleeps.
